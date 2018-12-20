@@ -1,0 +1,41 @@
+{
+  "name": "es6 to es5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "toes5": "babel src/index.js -o dist/js/es5.js",
+    "dev": "webpack --mode development --config webpack.config.js --progress",
+    "build": "webpack --mode production --config webpack.config.js --progress"
+  },
+  "author": "darlang",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^2.0.1",
+    "expose-loader": "^0.7.5",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue": "^2.5.21",
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "defaults",
+    "not ie < 9",
+    "last 15 versions",
+    "> 10%",
+    "iOS 7",
+    "last 10 iOS versions"
+  ]
+}

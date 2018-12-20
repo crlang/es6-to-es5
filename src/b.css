@@ -1,0 +1,9 @@
+div {
+  display: flex;
+  transform: rotate(30deg);
+}
+.div2 {
+  display: flex;
+  background-size: cover;
+  background-image: "../images/bg.png";
+}
